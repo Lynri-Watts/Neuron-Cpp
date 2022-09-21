@@ -1,28 +1,28 @@
-# A neuron-network based AI written in pure C++ 
+# A neural-network based AI written in pure C++ 
 
-## Part 1. Introduction 
+## Part I. Introduction 
 
 Python is now used for practically all AI-related programs, but I just can't get used to its sloppy grammar. To aid individuals who want to use AI without Python, this code was created. 
 
 
 
-## Part 2. Installing the program 
+## Part II. Installing the program 
 
 1. Compile, extract, and download the code. 
 2. Launch the program and type "r" to reset. 
 
 
 
-## Part 3. Training the network 
+## Part III. Training the network 
 
 1. A "train" directory should be created. 
-2. Create a file called "train.txt" under "train" and put the training data in it. 
+2. Create a file called "train.txt" under "train" and put the training data in it. Detailed in Part IV.
 3. Launch the program and enter "t" to train. 
 4. Provide the desired number of times to train the network. 
 
 
 
-## Part 4. Making your training data file 
+## Part IV. Making your training data file 
 
 You must enter a single integer N, which represents the number of data groups, on the first line of the file. 
 
