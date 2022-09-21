@@ -1,23 +1,34 @@
-# A neuron-network based AI written in pure C++
+# An AI-based neuron network written entirely in C++ 
 
-## Part 1. Introduction
-Nowadays, almost every AI-related code is written in Python, but I simply can't get used to the loose grammar of it. This code was written to help those who wish to use AI without python.
+## Part 1. Introduction 
 
-## Part 2. How to install
-1. Download, extract and compile the code.
-2. Run the application and input "r" for reset.
+Python is now used for practically all AI-related programs, but I just can't get used to its sloppy grammar. To aid individuals who want to use AI without Python, this code was created. 
 
-## Part 3. How to train the network
-1. Create a directory named "train"
-2. Create a file named "train.txt", storing the training data.
-3. Run the application and input "t" for train.
-4. Input how many times you want to train the network.
 
-## Part 4. How to create your training data file
-On the first line of the file, you need to write a single integer N, representing how many data groups there are.
-Then, the file should be followed with exactly 2N lines. Each line should have a certain number of real numbers exactly equal to the width of the neural network, 25 by default. For each pair of line, the former represents the input and the latter represents the expected output. The expected output should all be between 0 and 1.
 
-Here's an example.
+## Part 2. How to set up 
+
+1. Compile, extract, and download the code. 
+2. Launch the program and type "r" to reset. 
+
+
+
+## Part 3. Methods for teaching the network 
+
+1. A "train" directory should be created. 
+2. Create a file called "train.txt" and put the training information in it. 
+3. Launch the program and enter "t" for the train. 
+4. Provide the desired number of times to train the network. 
+
+
+
+## Part 4. Making your training data file 
+
+You must enter a single integer N, which represents the number of data groups, on the first line of the file. 
+
+Following that, exactly 2N lines should be added to the file. The amount of real numbers on each line should be exactly equal to the breadth of the neural network, which is 25 by default. The first line in each pair of lines represents the input, while the second line indicates the desired result. The entire output should range from 0 to 1. 
+
+Here is one instance. 
 
 ```
 3 
@@ -29,16 +40,16 @@ Here's an example.
 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 ```
 
-The first number (must be an integer) tells us that there are 3 data groups in this case. Then the file is followed by exactly 6 lines. Each line has exactly 25 real numbers (not necessarily integers).
+There are three data groups in this instance, according to the first number, which must be an integer. The file then has exactly 6 lines after it. Every line contains precisely 25 real numbers (not necessarily integers). 
 
-The first data group includes an input of 
+The input of the first data group is 
 
-`1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0`
+'1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0' 
 
-and an expected output of 
+and anticipated results of 
 
-`0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0`
+`0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0` 
 
-Once you finished your training data, you can train the network according to Part 3.
+Once your training data is complete, you can train the network in accordance with Part 3. 
 
 I'm just a high school student in China. I have poor English skills and poor development skills. :(
