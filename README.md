@@ -6,14 +6,14 @@ Python is now used for practically all AI-related programs, but I just can't get
 
 
 
-## Part 2. How to set up 
+## Part 2. Installing the program 
 
 1. Compile, extract, and download the code. 
 2. Launch the program and type "r" to reset. 
 
 
 
-## Part 3. Methods for teaching the network 
+## Part 3. Training the network 
 
 1. A "train" directory should be created. 
 2. Create a file called "train.txt" under "train" and put the training data in it. 
