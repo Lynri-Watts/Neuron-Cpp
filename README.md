@@ -1,4 +1,4 @@
-# An neuron-network based AI written entirely in C++ 
+# A neuron-network based AI written in pure C++ 
 
 ## Part 1. Introduction 
 
