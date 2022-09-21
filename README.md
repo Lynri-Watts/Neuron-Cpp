@@ -1,4 +1,4 @@
-# An AI-based neuron network written entirely in C++ 
+# An neuron-network based AI written entirely in C++ 
 
 ## Part 1. Introduction 
 
@@ -16,8 +16,8 @@ Python is now used for practically all AI-related programs, but I just can't get
 ## Part 3. Methods for teaching the network 
 
 1. A "train" directory should be created. 
-2. Create a file called "train.txt" and put the training information in it. 
-3. Launch the program and enter "t" for the train. 
+2. Create a file called "train.txt" under "train" and put the training data in it. 
+3. Launch the program and enter "t" to train. 
 4. Provide the desired number of times to train the network. 
 
 
@@ -26,7 +26,7 @@ Python is now used for practically all AI-related programs, but I just can't get
 
 You must enter a single integer N, which represents the number of data groups, on the first line of the file. 
 
-Following that, exactly 2N lines should be added to the file. The amount of real numbers on each line should be exactly equal to the breadth of the neural network, which is 25 by default. The first line in each pair of lines represents the input, while the second line indicates the desired result. The entire output should range from 0 to 1. 
+Following that, exactly 2N lines should be added to the file. The amount of real numbers on each line should be exactly equal to the width of the neural network, which is 25 by default. The first line in each pair of lines represents the input, while the second line indicates the desired result. Numbers in the output should range from 0 to 1. 
 
 Here is one instance. 
 
