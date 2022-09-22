@@ -44,7 +44,7 @@ There are three data groups in this instance, according to the first number, whi
 
 The input of the first data group is 
 
-'1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0' 
+`1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0`
 
 and anticipated results of 
 
